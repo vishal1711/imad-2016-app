@@ -11,6 +11,6 @@ element.innerHTML='New value';
 var img=document.getElementById('vis');
 
 img.onClick=function() {
-  img.style.marginLeft='100px';
+  vis.style.marginLeft='100px';
   
 };
