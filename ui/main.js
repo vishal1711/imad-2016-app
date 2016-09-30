@@ -8,8 +8,9 @@ element.innerHTML='New value';
 
 // move the image
 
-var img=document.getElementById('vis');
+var vis=document.getElementById('vis');
 
 vis.onClick=function() {
-  img.style.marginInLeft='100px';  
+  img.style.marginLeft='100px';
+  
 };
