@@ -10,8 +10,13 @@ element.innerHTML='New value';
 
 var img=document.getElementById('madi');
 
+var marginLeft =0;
+
+function moveRight(){
+    marginLeft = marginLeft =10;
+    img.style.marginLeft = marginLeft + 'px';
+}
 img.onClick=function() {
     
-  img.style.marginleft='200px';
-  
+  var interval = setInterval(moveRight,100);
 };
